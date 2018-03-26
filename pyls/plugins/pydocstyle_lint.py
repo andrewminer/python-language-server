@@ -21,7 +21,7 @@ DEFAULT_MATCH_DIR_RE = pydocstyle.config.ConfigurationParser.DEFAULT_MATCH_DIR_R
 @hookimpl
 def pyls_settings():
     # Default pydocstyle to disabled
-    return {'plugins': {'pydocstyle': {'enabled': False}}}
+    return {'plugins': {'pydocstyle': {'enabled': True}}}
 
 
 @hookimpl
